@@ -23,7 +23,7 @@ export default function Home() {
         <div className="hidden md:block absolute top-0 left-0 w-full h-full">
           <video
             className="w-full h-full object-cover"
-            src="/videos/elite-brains-consulting-home-bg.mp4"
+            src="https://res.cloudinary.com/popit/video/upload/v1760648201/elite-brains-consulting-home-bg_znclvf.mp4"
             autoPlay
             loop
             muted

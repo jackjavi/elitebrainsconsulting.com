@@ -6,23 +6,33 @@ const nextConfig: NextConfig = {
       {
         source: "/api/:path*",
         // destination: "http://localhost:8888/api/:path*",
-        destination: "https://odd2tips-0f9x.onrender.com/api/:path*",
+        destination: "https://elitebrainsconsulting.com/api/:path*",
       },
       {
         source: "/auth/:path*",
         // destination: "http://localhost:8888/auth/:path*",
-        destination: "https://odd2tips-0f9x.onrender.com/auth/:path*",
+        destination: "https://elitebrainsconsulting.com/auth/:path*",
       },
 
       {
         source: "/sockets/:path*",
         // destination: "http://localhost:8888/:path*",
-        destination: "https://odd2tips-0f9x.onrender.com/:path*",
+        destination: "https://elitebrainsconsulting.com/:path*",
       },
     ];
   },
   images: {
-    domains: ["images.pexels.com", "res.cloudinary.com"],
+    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+    ],
   },
 };
 
