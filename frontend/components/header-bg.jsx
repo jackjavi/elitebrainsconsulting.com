@@ -15,7 +15,7 @@ const Header = () => {
         <div className="hidden md:flex ju items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
+              src="https://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite BRAINS CONSULTING Logo White"
               width={200}
               height={200}
@@ -25,7 +25,7 @@ const Header = () => {
         <div className="md:hidden flex items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
+              src="https://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite BRAINS CONSULTING Logo White"
               width={100}
               height={100}
@@ -46,11 +46,10 @@ const Header = () => {
               link: "/automation-bots",
             },
             {
-              label: "Academic Research",
-              link: "/academic-writing",
+              label: "Digital Marketing",
+              link: "/digital-marketing",
             },
-            { label: "Dissertation Consulting", link: "research" },
-            { label: "AI Removal", link: "ai-removal" },
+
             { label: "Contact Us", link: "contact" },
             { label: "Home", link: "/" },
           ].map((item, index) => (
@@ -84,11 +83,10 @@ const Header = () => {
               link: "/automation-bots",
             },
             {
-              label: "Academic Research",
-              link: "/academic-writing",
+              label: "Digital Marketing",
+              link: "/digital-marketing",
             },
-            { label: "Dissertation Consulting", link: "research" },
-            { label: "AI Removal", link: "ai-removal" },
+
             { label: "Contact Us", link: "contact" },
             { label: "Home", link: "/" },
           ].map((item, index) => (

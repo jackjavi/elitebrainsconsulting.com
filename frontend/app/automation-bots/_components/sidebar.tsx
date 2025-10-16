@@ -28,7 +28,7 @@ export default function Sidebar() {
 
       {/* <div className="mt-12">
         <Image
-          src="http://res.cloudinary.com/popit/image/upload/v1742305472/wy4tczfczwhxhk8gors0.png"
+          src="https://res.cloudinary.com/popit/image/upload/v1742305472/wy4tczfczwhxhk8gors0.png"
           alt="EBC Automation Bots"
           width={500}
           height={500}

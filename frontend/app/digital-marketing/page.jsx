@@ -88,7 +88,7 @@ export default function AutomationBots() {
           </h1>
 
           <div className="mt-10 flex justify-center items-center">
-            <div className="w-full md:w-2/3 xl:w-1/2 bg-white p-6 md:p-10 rounded-lg shadow-md border">
+            <div className="w-full md:w-2/3 xl:w-1/2 bg-white/50 p-6 md:p-10 rounded-lg shadow-md border">
               <h2 className="text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-800 mb-6 text-center">
                 Submit Your X Username to Join the Train 🚀
               </h2>

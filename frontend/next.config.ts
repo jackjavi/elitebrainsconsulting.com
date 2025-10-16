@@ -34,6 +34,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  video: {
+    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
