@@ -198,7 +198,7 @@ export default function DigitalMarketing() {
           </ul>
 
           <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
-            Let's Grow Your Brand Together
+            Let&apos;s Grow Your Brand Together
           </h2>
           <p className="mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg text-gray-700 leading-relaxed">
             Whether you&apos;re launching a new product, building brand
