@@ -13,11 +13,11 @@ const Header = () => {
       <div className="flex justify-between h-full">
         {/* Logo */}
 
-        <div className="hidden md:flex align-top space-x-2">
+        <div className="hidden md:flex md:pt-4 space-x-2">
           <Link href="/">
             <Image
-              src="https://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
-              alt="Elite Brains Consulting Logo"
+              src="https://res.cloudinary.com/popit/image/upload/v1760653753/ebc_logo_design-dark_riw3fz.svg"
+              alt="Elite Brains Consulting"
               width={200}
               height={200}
             />
@@ -26,8 +26,8 @@ const Header = () => {
         <div className="md:hidden flex  space-x-2">
           <Link href="/">
             <Image
-              src="https://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
-              alt="Elite Brains Consulting Logo"
+              src="https://res.cloudinary.com/popit/image/upload/v1760653753/ebc_logo_design-dark_riw3fz.svg"
+              alt="Elite Brains Consulting"
               width={100}
               height={100}
             />
